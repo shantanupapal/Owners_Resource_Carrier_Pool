@@ -1,0 +1,32 @@
+/* PRIMARY HEADER */
+.primary-header {
+ background: #000000;
+ color: rgba(255, 255, 255, 0.8);
+ padding: 10px 20px;
+ font-size: 13px;
+ overflow: hidden; }
+.stickyheader{
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+}
+
+.primary-header .primary-header-links {
+position: sticky;
+display: inline-block;
+vertical-align: top;
+padding: 0px  15px;
+border-right: 1px solid rgba(255, 255, 255, 0.8);
+}
+.primary-header  .primary-header-links:last-child {
+border-right: 0;
+padding-right: 0; }
+.primary-header  a{
+color: rgba(255, 255, 255, 0.8);
+letter-spacing: 0.2px;
+cursor: pointer;
+font-size: 14px; }
+.primary-header a:hover {
+  color: #8EC44A; }
+ .place-right{
+  float:right;
+}
